@@ -23,3 +23,7 @@ module.exports = {
 }
 
 ```
+
+When you're ready: `npm start`
+
+

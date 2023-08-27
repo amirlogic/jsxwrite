@@ -1,11 +1,7 @@
 
 const xstem = require('./xstem')
 
-//const xhead = require('./xhead')
-
 const content = require('./content')
-
-//const { webpage } = require('htwrite')
 
 const fs = require('fs');
 
@@ -26,3 +22,4 @@ function writePage(filename,template){
 writePage('demo','nocolumn-simple-multirow')
 
 //writePage('dynalgo','page-simple-twocol-multirow')
+
