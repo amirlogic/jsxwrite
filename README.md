@@ -12,6 +12,8 @@ module.exports = {
 
     'demo':{
         
+        title:`JSX Write Demo`,
+
         toptext:"Lorem ipsum odor amet, consectetuer adipiscing elit. Cras torquent mollis adipiscing himenaeos; litora amet fusce. Class augue nibh interdum feugiat ligula sollicitudin hac interdum! In condimentum efficitur vestibulum placerat diam per.",
 
         rows:[
@@ -31,5 +33,13 @@ module.exports = {
 `index.js` For each file you want to generate: `writePage('filename','template')`
 
 When you're ready: `npm start`
+
+
+## Available templates
+
+
+`nocolumn-simple-multirow`
+
+
 
 
