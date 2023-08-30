@@ -6,9 +6,9 @@ const content = require('./content')
 const fs = require('fs');
 
 
-function writePage(filename,template){
+function writePage(filename='output',template='',wrap=true){
 
-    let xcontent = xstem(template,content[filename],true)
+    let xcontent = xstem(template,content[filename],wrap)
 
     //let filecontent = webpage(content[filename].pgtitle,xhead,htcontent)
 
