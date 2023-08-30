@@ -4,6 +4,8 @@ JSX generator for Next.js apps
 
 Tailwind CSS must be installed
 
+You need a `content.js` file:
+
 ```javascript
 
 module.exports = {
@@ -23,6 +25,10 @@ module.exports = {
 }
 
 ```
+
+`xstem.js` Templates for JSX generation
+
+`index.js` For each file you want to generate: `writePage('filename','template')`
 
 When you're ready: `npm start`
 

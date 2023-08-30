@@ -21,5 +21,4 @@ function writePage(filename,template){
 
 writePage('demo','nocolumn-simple-multirow')
 
-//writePage('dynalgo','page-simple-twocol-multirow')
 
